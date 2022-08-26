@@ -1,36 +1,7 @@
 {
-  "name": "Hudha Bot",
-  "description": "whatsapp md bot build with nodejs",
+  "name": "games-wabot",
+  "description": "Customizable WhatsApp Bot",
   "repository": "https://github.com/Hudhabott/Izumi-V4",
-  "logo": "",
-  "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
-  "stack": "container",
-  "addons": [{
-  "plan": "heroku-postgresql"
-    }],
-    "env": {
-      "HEROKU_APP_NAME": {
-        "description": "Heroku app name, same as above entered",
-        "required": true
-      },
-      "HEROKU_API_KEY": {
-        "description": "Heroku account api key, https://dashboard.heroku.com/account",
-        "required": true
-      }
-    },
-  "buildpacks": [
-              {
-                
-                "url": "heroku-community/apt"
-              },
-              {
-                "url": "heroku/nodejs"
-              },
-              {
-                "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-              },
-              {
-                "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
-              }
-            ]
-          }   
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "keywords": ["bot", "whatsapp", "whatsapp-bot", "rpg", "games-wabot", "epic rpg"]
+}
